@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT-3.5-16k</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        .title {
+            color: #333;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .subtitle {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .conversation {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 20px; 
+            margin: 0 auto;
+            max-height: 300px; 
+            overflow-y: scroll;
+            width: 700px;
+        }
+        
+        /* 添加其它样式 */
+        .input-container {
+            margin-bottom: 10px;
+        }
+        
+        .label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        
+        .button-group {
+            display: flex;
+        }
+        
+        .control {
+            margin-right: 5px;
+        }
+        
+        .clear-button {
+            background-color: #ff3860;
+            color: #fff;
+        }
+        
+        /* 添加更丰富多彩的样式 */
+        .api-key-form, .user-input-form {
+            margin-top: 20px;
+        }
+        
+        .button.is-primary {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-right: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .button.is-primary:hover {
+            background-color: #45a049;
+        }
+        
+        .button.is-danger {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-right: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .button.is-danger:hover {
+            background-color: #da190b;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">ChatGPT-3.5-16k</h1>
+            {% if result %}
+                <p>{{ result }}</p>
+            {% endif %}
+            <form method="post" action="/" class="api-key-form" id="api-key-form">
+                <input type="hidden" name="action" value="set_api_key">
+                <div class="input-container">
+                    <label class="label" for="api_key">OpenAI API密钥:</label>
+                    <input class="input" type="text" id="api_key" name="api_key" required>
+                </div>
+                <div class="input-container">
+                    <label class="label" for="assistant_message">角色:</label>
+                    <input class="input" type="text" id="assistant_message" name="assistant_message" required>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary" type="submit" onclick="checkApiKey()">设置API密钥和角色</button>
+                    </div>
+                </div>
+            </form>
+
+            <h2 class="subtitle">对话:</h2>
+            <div class="conversation">
+                {% for message in conversation %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+
+            <form method="post" action="/" class="user-input-form" id="user-input-form">
+                <input type="hidden" name="action" value="send_message">
+                <div class="input-container">
+                    <label class="label" for="user_input">用户输入:</label>
+                    <input class="input" type="text" id="user_input" name="user_input" required>
+                </div>
+                <div class="input-container">
+                    <label class="label" for="max_tokens">max_tokens:</label>
+                    <input class="input" type="number" id="max_tokens" name="max_tokens" value="100" required>
+                </div>
+                <div class="input-container">
+                    <label class="label" for="temperature">temperature:</label>
+                    <input class="input" type="number" id="temperature" name="temperature" step="0.01" value="0.5" required>
+                </div>
+                <div class="field is-grouped">
+                    <div class="button-group">
+                        <div class="control">
+                            <button class="button is-primary" type="submit" onclick="checkForm()">发送</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-danger clear-button" type="button" onclick="clearConversation()">清除对话</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- JavaScript 代码 -->
+    <script>
+        // JavaScript 函数定义
+        function clearConversation() {
+            // 清除对话历史
+            var conversationDiv = document.querySelector('.conversation');
+            conversationDiv.innerHTML = '';
+        }
+       
+    </script>
+</body>
+</html>
