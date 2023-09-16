@@ -5,7 +5,7 @@ import openai
 openai.api_base = "https://api.openai-proxy.com/v1"
 
 # 替换为您自己的OpenAI API密钥
-api_key = "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"
+api_key = ""
 
 # 初始化OpenAI
 openai.api_key = api_key
