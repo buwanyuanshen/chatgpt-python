@@ -8,6 +8,7 @@ openai.api_base = "https://api.openai-proxy.com/v1"
 # 替换为您自己的OpenAI API密钥列表
 api_keys = [
     "",
+
 ]
 # 创建Flask应用程序
 app = Flask(__name__)
@@ -25,11 +26,17 @@ available_models = {
     "gpt-4-0314": "GPT-4-0314(8192tokens)",
     "gpt-4-32k-0314": "GPT-4-32k-0314(32768tokens)"
 }
+
 messages = []
 
 @app.route('/')
 def index():
     return render_template('7.html', models=available_models)
+
+@app.route('/clear_history', methods=['POST'])
+def clear_history():
+    messages.clear()  # 清除所有对话历史
+    return jsonify({"message": "对话历史已清除"})
 
 @app.route('/get_response', methods=['POST'])
 def get_response():
@@ -46,6 +53,7 @@ def get_response():
         messages.append({"role": "system", "content": system_message})
         messages.append({"role": "user", "content": user_input})
     else:
+        messages.append({"role": "system", "content": system_message})
         messages.append({"role": "user", "content": user_input})
     selected_api_key = random.choice(api_keys)
     openai.api_key = selected_api_key.strip()
@@ -77,11 +85,6 @@ def get_response():
                     yield "\n"
     response = Response(get_stream(response),content_type='text/html')
     return response
-
-# @app.route('/clear_user',method=['POST'])
-# def clear_information():
-
-
 
 if __name__ == '__main__':
     app.run('0.0.0.0', 80)
