@@ -31,9 +31,10 @@ default_settings = {
     "selected_api_key": "",
     "temperature": 0.2,
     "max_tokens": 12345,
-    "continuous_chat": False
+    "continuous_chat": 0,
 }
 
+# 读取配置文件
 # 读取配置文件
 def read_settings():
     global selected_model, system_message, selected_api_key, temperature, max_tokens, continuous_chat
@@ -45,7 +46,8 @@ def read_settings():
             selected_api_key = data.get("selected_api_key", default_settings["selected_api_key"])
             temperature = data.get("temperature", default_settings["temperature"])
             max_tokens = data.get("max_tokens", default_settings["max_tokens"])
-            continuous_chat = data.get("continuous_chat", default_settings["continuous_chat"])
+            continuous_chat = data.get("continuous_chat", 0)  # 读取连续对话状态，默认为关闭
+
     except FileNotFoundError:
         with open("settings.txt", "w", encoding="utf-8") as f:
             json.dump(default_settings, f, indent=4)
@@ -54,7 +56,8 @@ def read_settings():
             selected_api_key = default_settings["selected_api_key"]
             temperature = default_settings["temperature"]
             max_tokens = default_settings["max_tokens"]
-            continuous_chat = default_settings["continuous_chat"]
+            continuous_chat = default_settings.get("continuous_chat", 0)
+
     except Exception as e:
         messagebox.showerror("Error reading settings:", str(e))
 
@@ -67,17 +70,16 @@ def save_settings():
         "selected_api_key": selected_api_key,
         "temperature": temperature,
         "max_tokens": max_tokens,
-        "continuous_chat": continuous_chat,
+        "continuous_chat": continuous_chat  # 保存连续对话状态
     }
     try:
         with open("settings.txt", "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4,ensure_ascii=False)
+            json.dump(data, f, indent=4, ensure_ascii=False)
     except Exception as e:
         messagebox.showerror("Error saving settings:", str(e))
 
 # 初始化配置
 read_settings()
-
 # 定义一个变量用于保存当前界面状态
 simplified_state = False
 
@@ -258,6 +260,7 @@ max_tokens_entry.insert(0, max_tokens)
 max_tokens_entry.grid(row=6, column=1, padx=(0, 5), sticky="ew")
 
 continuous_chat_var = tk.IntVar()
+continuous_chat_var.set(continuous_chat)
 continuous_chat_check = ttk.Checkbutton(frame_left, text="开启连续对话", variable=continuous_chat_var)
 continuous_chat_check.grid(row=7, columnspan=2, pady=(5, 0), sticky="w")
 
@@ -305,7 +308,6 @@ def save_chat_history():
         filename = f"chat_history_{current_time}.txt"
         with open(filename, "w", encoding="utf-8") as file:
             file.write(chat_history)
-
 
 
 user_copy_button = ttk.Button(frame_left, text="复制用户消息", command=copy_user_message, width=15)
