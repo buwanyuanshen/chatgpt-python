@@ -131,7 +131,7 @@ def get_response_thread():
     max_tokens = int(max_tokens_entry.get())
     continuous_chat = continuous_chat_var.get()
     response_text_box.config(state=tk.NORMAL)
-    response_text_box.insert(tk.END, "\n" + "用户:" + user_input + "\n" + f"{available_models[selected_model]}:")
+    response_text_box.insert(tk.END, "\n\n" + "用户: " + user_input + "\n" + f"{available_models[selected_model]}: ")
     response_text_box.config(state=tk.DISABLED)
     response_text_box.see(tk.END)
 
@@ -162,7 +162,7 @@ def get_response_thread():
         response_text_box.insert(tk.END, response_text)
         response_text_box.config(state=tk.DISABLED)
         response_text_box.see(tk.END)
-
+        response_text_box.yview_moveto(1.0)
     for chunk in response:
         chunk_message = chunk['choices'][0]['delta']
         if chunk_message != "":
@@ -198,6 +198,7 @@ def set_api_key_show_state():
 
 def copy_text_to_clipboard(text):
     pyperclip.copy(text)
+
 
 # 创建tkinter窗口
 root = tk.Tk()
@@ -276,10 +277,10 @@ response_label.grid(row=0, column=0, columnspan=2, sticky="w")
 response_text_box = scrolledtext.ScrolledText(frame_right, height=25, width=50, state=tk.DISABLED)
 response_text_box.grid(row=1, column=0, columnspan=2, sticky="nsew")
 
-send_button = ttk.Button(frame_left, text="发送", command=get_response, width=10)
+send_button = ttk.Button(frame_left, text="发送用户消息", command=get_response, width=15)
 send_button.grid(row=9, column=0, padx=(20, 10), pady=(10, 0), sticky="w")
 
-clear_button = ttk.Button(frame_left, text="清空历史", command=clear_history, width=10)
+clear_button = ttk.Button(frame_left, text="清空对话历史", command=clear_history, width=15)
 clear_button.grid(row=9, column=1, padx=(10, 20), pady=(10, 0), sticky="n")
 
 simplified_button = ttk.Button(frame_right, text="显示/隐藏参数", command=toggle_simplified, width=15)
