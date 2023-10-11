@@ -5,6 +5,7 @@ import threading
 import json
 import pyperclip  # 用于复制文本到剪贴板
 import datetime
+import pyttsx3
 
 # 设置代理网址
 openai.api_base = "https://api.openai-proxy.com/v1"
@@ -23,7 +24,6 @@ available_models = {
     "gpt-4-0314": "GPT-4-0314(8192tokens)",
     "gpt-4-32k-0314": "GPT-4-32k-0314(32768tokens)"
 }
-
 # 默认参数值
 default_settings = {
     "selected_model": "gpt-3.5-turbo-16k",
@@ -34,7 +34,6 @@ default_settings = {
     "continuous_chat": 0,
 }
 
-# 读取配置文件
 # 读取配置文件
 def read_settings():
     global selected_model, system_message, selected_api_key, temperature, max_tokens, continuous_chat
@@ -131,7 +130,9 @@ def get_response_thread():
     max_tokens = int(max_tokens_entry.get())
     continuous_chat = continuous_chat_var.get()
     response_text_box.config(state=tk.NORMAL)
-    response_text_box.insert(tk.END, "\n\n" + "用户: " + user_input + "\n" + f"{available_models[selected_model]}: ")
+    response_text_box.insert(tk.END, "\n\n" + "用户: " + user_input + "\n","user")
+    response_text_box.tag_configure("user", foreground="blue")
+    response_text_box.insert(tk.END,f"{available_models[selected_model]}: ")
     response_text_box.config(state=tk.DISABLED)
     response_text_box.see(tk.END)
 
@@ -320,6 +321,38 @@ assistant_copy_button.grid(row=10, column=1, padx=(10, 20), pady=(5, 0), sticky=
 
 save_history_button = ttk.Button(frame_right, text="保存对话记录", command=save_chat_history, width=15)
 save_history_button.grid(row=2, column=1, padx=(10, 15), pady=(10, 0), sticky="n")
+
+def play_user_message():
+    def play_audio():
+        engine = pyttsx3.init()
+        user_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[0].replace("用户:", "")
+        engine.setProperty('rate', 200)
+        engine.setProperty('volume', 1)
+        engine.setProperty('pitch', 2)
+        engine.say(user_message)
+        engine.runAndWait()
+        engine.stop()
+
+    audio_thread = threading.Thread(target=play_audio)
+    audio_thread.start()
+play_button1 = ttk.Button(frame_left, text="播放用户回复", command=play_user_message, width=15)
+play_button1.grid(row=11, column=0, padx=(20, 10), pady=(5, 0), sticky="w")
+
+def play_assistant_message():
+    def play_audio():
+        engine = pyttsx3.init()
+        assistant_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[1].replace(f"{available_models[selected_model]}:", "")
+        engine.setProperty('rate', 222)
+        engine.setProperty('volume', 1)
+        engine.setProperty('pitch', 5)
+        engine.say(assistant_message)
+        engine.runAndWait()
+        engine.stop()
+
+    audio_thread = threading.Thread(target=play_audio)
+    audio_thread.start()
+play_button2 = ttk.Button(frame_left, text="播放GPT回复", command=play_assistant_message, width=15)
+play_button2.grid(row=11, column=1, padx=(10, 20), pady=(5, 0), sticky="n")
 
 def on_closing():
     save_settings()
