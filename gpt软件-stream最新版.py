@@ -295,13 +295,13 @@ user_input_text.bind("<Return>", on_enter_key)
 def copy_user_message():
     response_text = response_text_box.get("end-2l linestart", "end-1c")
     if response_text.strip() != "":
-        user_input = response_text.strip().split("\n")[0].replace("用户:", "")
+        user_input = response_text.strip().split("\n")[0].replace("用户: ", "")
         copy_text_to_clipboard(user_input)
 
 def copy_assistant_message():
     response_text = response_text_box.get("end-2l linestart", "end-1c")
     if response_text.strip() != "":
-        assistant_message = response_text.strip().split("\n")[1].replace(f"{available_models[selected_model]}:", "")
+        assistant_message = response_text.strip().split("\n")[1].replace(f"{available_models[selected_model]}: ", "")
         copy_text_to_clipboard(assistant_message)
 def save_chat_history():
     chat_history = response_text_box.get("1.0", "end-1c")
@@ -325,7 +325,7 @@ save_history_button.grid(row=2, column=1, padx=(10, 15), pady=(10, 0), sticky="n
 def play_user_message():
     def play_audio():
         engine = pyttsx3.init()
-        user_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[0].replace("用户:", "")
+        user_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[0].replace("用户: ", "")
         engine.setProperty('rate', 200)
         engine.setProperty('volume', 1)
         engine.setProperty('pitch', 2)
@@ -341,7 +341,7 @@ play_button1.grid(row=11, column=0, padx=(20, 10), pady=(5, 0), sticky="w")
 def play_assistant_message():
     def play_audio():
         engine = pyttsx3.init()
-        assistant_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[1].replace(f"{available_models[selected_model]}:", "")
+        assistant_message = response_text_box.get("end-2l linestart", "end-1c").strip().split("\n")[1].replace(f"{available_models[selected_model]}: ", "")
         engine.setProperty('rate', 222)
         engine.setProperty('volume', 1)
         engine.setProperty('pitch', 5)
