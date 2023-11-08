@@ -12,6 +12,7 @@ openai.api_base = "https://api.openai-proxy.com/v1"
 messages=[]
 # 定义可供选择的模型
 available_models = {
+    "gpt-3.5-turbo-1106": "GPT-3.5-Turbo-1106(4097tokens)",
     "gpt-3.5-turbo": "GPT-3.5-Turbo(4097tokens)",
     "gpt-3.5-turbo-16k": "GPT-3.5-Turbo-16k(16385tokens)",
     "gpt-3.5-turbo-0613": "GPT-3.5-Turbo-0613(4097tokens)",
@@ -26,11 +27,11 @@ available_models = {
 }
 # 默认参数值
 default_settings = {
-    "selected_model": "gpt-3.5-turbo-16k",
+    "selected_model": "gpt-3.5-turbo-1106",
     "system_message": "You are a helpful assistant.",
     "selected_api_key": "",
-    "temperature": 0.2,
-    "max_tokens": 12345,
+    "temperature": 0.3,
+    "max_tokens": 3500,
     "continuous_chat": 0,
 }
 
