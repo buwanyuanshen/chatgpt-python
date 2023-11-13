@@ -2,7 +2,7 @@
 
 本项目是一个使用 Python 编写的聊天机器人，基于最新的 GPT3.5 模型。它可以在无需梯子的情况下运行，并且只需要输入 API Key 即可进行聊天。
 
-项目网址:[(快速流式输出GPT)](ccfgpt.cn)   : [http://ccfgpt.cn/](http://ccfgpt.cn/)
+项目网址:[(快速流式输出GPT)](http://ccfgpt.cn/)   : [http://ccfgpt.cn/](http://ccfgpt.cn/)
          [(稳定非流式输出GPT)](http://ccfgpt.cn:81/)  : [http://ccfgpt.cn:81/](http://ccfgpt.cn:81/) 
 ＃＃ 流式效果如图:
 ![1699913174625.jpg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/7f59b8fa-704a-48b6-9975-9b918d9fb993)
