@@ -4,9 +4,12 @@
 
 项目网址:[(快速流式输出GPT)](http://ccfgpt.cn/)   / [http://ccfgpt.cn/](http://ccfgpt.cn/)
          [(稳定非流式输出GPT)](http://ccfgpt.cn:81/)  /  [http://ccfgpt.cn:81/](http://ccfgpt.cn:81/) 
-＃＃ 效果如图:![1699913006406.jpg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/3790e5fc-9f3a-431f-bc53-10eab101d163)
+＃＃ 流式效果如图:
 ![1699913174625.jpg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/7f59b8fa-704a-48b6-9975-9b918d9fb993)
+![1699913387095.jpg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/712525b7-e613-4910-87e9-c8342fb7f708)
+＃＃ 非流式效果如图:
 ![1699912902772.jpeg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/da10382f-57f8-4426-9ce1-7969f9949ef6)
+![1699913410481.jpg](https://github.com/buwanyuanshen/FREE-EASY-GPT-by-python-html/assets/144007759/612fc265-6a83-42c6-968e-56a6deb1e371)
 ## 功能特点
 
 - 使用 Python 编写，运行环境为最新的 Python 版本
