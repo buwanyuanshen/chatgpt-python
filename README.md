@@ -2,7 +2,6 @@
 
 本项目是一个使用 Python 编写的聊天机器人，基于最新的 GPT3.5/4.0模型。它可以在无需梯子的情况下运行，并且只需要输入 API Key 即可进行聊天。
 
-项目网址:[(ChatGPT-3.5简易版)](http://49.235.117.218/) //[(ChatGPT-4.0简易版)](http://49.235.117.218:81/)
          
 ＃＃ 项目gpt3.5效果如图:
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/b9c3b64d-8483-45d5-9ccd-548a2a96112e)
@@ -12,8 +11,15 @@
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/24374c6f-2b57-4e89-a4db-c8cceaed26c8)
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/eb2beaa6-496a-44c3-9330-f6cb6c747f28)
 
-实用免费网址： [(ChatGPT-3.5实用版)](https://ccfgpt.cn/) // [(ChatGPT-4.0实用版)](https://ccf666.cn/)
-
+2024.1.24最新ChatGPT免费使用网址：
+1. [Gemini Pro](https://ccfgpt.cn)
+2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
+3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
+4. [ChatGPT-Bot](https://supergpt.shop)
+5. [ChatGPT-3.5-16k](https://6.ccf666.cn)
+6. [ChatGPT-3.5-1106](https://6.ccfgpt.cn)
+7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
+8. [ChatGPT-DALLE](https://6.supergpt.shop)
 效果如图，欢迎体验：
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/6f648777-ecf1-482d-9167-7788eda486c5)
 
