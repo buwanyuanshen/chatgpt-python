@@ -20,7 +20,7 @@
 6. [ChatGPT-3.5-1106](https://6.ccfgpt.cn)
 7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
 8. [ChatGPT-DALLE](https://6.supergpt.shop)
-可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
+9. 可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
 ## 功能特点
 
 - 使用 Python 编写，运行环境为最新的 Python 版本
