@@ -4,6 +4,7 @@
 –xx.py
 
 –文件夹templates
+
  ––xx.html
 即将xx.py文件和文件夹放置同一目录下，html放入文件夹中，运行xx.py即可。
 
