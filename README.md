@@ -4,7 +4,7 @@
 
 –xx.py
 
-–文件夹templates
+–文件夹：templates
 
  ––xx.html
 
