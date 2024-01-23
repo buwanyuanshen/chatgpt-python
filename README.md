@@ -14,11 +14,11 @@
 2024.1.24最新ChatGPT免费使用网址：
 1. [Gemini Pro](https://ccfgpt.cn)
 2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
-3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
+3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
 4. [ChatGPT-Bot](https://supergpt.shop)
-5. [ChatGPT-3.5-16k](https://6.ccf666.cn)
+5. [ChatGPT-3.5-16k](https://6.ccf666.cn)
 6. [ChatGPT-3.5-1106](https://6.ccfgpt.cn)
-7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
+7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
 8. [ChatGPT-DALLE](https://6.supergpt.shop)
 可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
 ## 功能特点
