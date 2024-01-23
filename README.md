@@ -12,7 +12,7 @@
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/eb2beaa6-496a-44c3-9330-f6cb6c747f28)
 
 2024.1.24最新ChatGPT免费使用网址：
-1. [Gemini Pro](https://ccfgpt.cn)
+1. [Gemini Pro](https://ccfgpt.cn)
 2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
 3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
 4. [ChatGPT-Bot](https://supergpt.shop)
