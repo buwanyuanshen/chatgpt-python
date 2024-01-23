@@ -20,11 +20,7 @@
 6. [ChatGPT-3.5-1106](https://6.ccfgpt.cn)
 7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
 8. [ChatGPT-DALLE](https://6.supergpt.shop)
-效果如图，欢迎体验：
-![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/6f648777-ecf1-482d-9167-7788eda486c5)
-
-![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/b3c3b4ac-41e0-43f6-a631-730496e9be9c)
-
+可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
 ## 功能特点
 
 - 使用 Python 编写，运行环境为最新的 Python 版本
@@ -38,8 +34,7 @@
 
 ## 使用方法
 
-1. 访问项目的网页版链接分别为ChatGPT-3.5和ChatGPT-4.0，点击字体即可进入：[(ChatGPT-3.5)](http://49.235.117.218/)  
-         [(ChatGPT-4.0)](http://49.235.117.218:81/)
+1. 访问项目的网页版链接分别为ChatGPT-3.5和ChatGPT-4.0，已关闭。
 2. 在网页中输入你的个人 API Key。
 3. 选择要使用的 GPT3.5 模型。
 4. 根据需要设置参数，如 `max-tokens`、`temperature`、`role` 等。
