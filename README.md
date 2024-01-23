@@ -13,7 +13,7 @@
 
 2024.1.24最新ChatGPT免费使用网址：
 1. [Gemini Pro](https://ccfgpt.cn)
-2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
+2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
 3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
 4. [ChatGPT-Bot](https://supergpt.shop)
 5. [ChatGPT-3.5-16k](https://6.ccf666.cn)
