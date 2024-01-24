@@ -207,7 +207,7 @@ def copy_text_to_clipboard(text):
 
 # 创建tkinter窗口
 root = tk.Tk()
-root.title("FREE ChatGPT-----Stream-----MADE-----BY-----中北锋哥-----2023.12.05")
+root.title("FREE ChatGPT-----Stream-----MADE-----BY-----中北锋哥-----2023.12.14")
 
 # 主题和风格
 style = ttk.Style()
@@ -320,6 +320,7 @@ def copy_assistant_message():
     if response_text.strip() != "":
         assistant_message = response_text.strip().split("\n")[1].replace(f"{available_models[selected_model]}: ", "")
         copy_text_to_clipboard(assistant_message)
+
 def save_chat_history():
     chat_history = response_text_box.get("1.0", "end-1c")
     if chat_history.strip() != "":
