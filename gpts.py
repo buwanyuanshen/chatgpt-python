@@ -15,17 +15,20 @@ api_keys = [
 app = Flask(__name__)
 # 定义可供选择的模型
 available_models = {
+    "gpt-3.5-turbo-0125": "GPT-3.5-Turbo-0125(4096tokens)",
     "gpt-3.5-turbo-1106": "GPT-3.5-Turbo-1106(4096tokens)",
     "gpt-3.5-turbo": "GPT-3.5-Turbo(4096tokens)",
     "gpt-3.5-turbo-16k": "GPT-3.5-Turbo-16k(16385tokens)",
     "gpt-3.5-turbo-0613": "GPT-3.5-Turbo-0613(4096tokens)",
     "gpt-3.5-turbo-16k-0613": "GPT-3.5-Turbo-16k-0613(16385tokens)",
     "gpt-3.5-turbo-0301": "GPT-3.5-Turbo-0301(4096tokens)",
+    "gpt-4-turbo-preview": "GPT-4-Turbo-preview(4096tokens,max:128000tokens)",
+    "gpt-4-0125-preview": "GPT-4-0125-preview(4096tokens,max:128000tokens)",
     "gpt-4-1106-preview": "GPT-4-1106-preview(4096tokens,max:128000tokens)",
-    "gpt-4-vision-preview": "GPT-4-vision-preview(4096tokens,max:128000tokens)",
+    "gpt-4-vision-preview": "GPT-4-Vision-preview(4096tokens,max:128000tokens)",
     "gpt-4": "GPT-4(8192tokens)",
-    "gpt-4-0613": "GPT-4-0613(8192tokens)",
     "gpt-4-32k": "GPT-4-32k(32768tokens)",
+    "gpt-4-0613": "GPT-4-0613(8192tokens)",
     "gpt-4-32k-0613": "GPT-4-32k-0613(32768tokens)",
     "gpt-4-0314": "GPT-4-0314(8192tokens)",
     "gpt-4-32k-0314": "GPT-4-32k-0314(32768tokens)",
