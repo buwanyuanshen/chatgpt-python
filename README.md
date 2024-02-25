@@ -24,7 +24,8 @@
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/eb2beaa6-496a-44c3-9330-f6cb6c747f28)
 
 # gpt-stream-0125效果图：
-![Uploading _VXKRV_VT6S(H5}Y(E`9AMX.png…]()
+![_VXKRV_VT6S(H5}Y(E`9AMX](https://github.com/buwanyuanshen/chatgpt-python/assets/144007759/1a691719-20ce-4e22-b1dc-19d36ef6faee)
+
 
 
 # 截止2024.2.25最新ChatGPT免费使用网址，还在更新中！：
