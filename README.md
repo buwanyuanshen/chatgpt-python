@@ -23,16 +23,23 @@
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/24374c6f-2b57-4e89-a4db-c8cceaed26c8)
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/eb2beaa6-496a-44c3-9330-f6cb6c747f28)
 
-# 截止2024.1.24最新ChatGPT免费使用网址，还在更新中！：
+# gpt-stream-0125效果图：
+![Uploading _VXKRV_VT6S(H5}Y(E`9AMX.png…]()
+
+
+# 截止2024.2.25最新ChatGPT免费使用网址，还在更新中！：
 1. [Gemini Pro](https://ccfgpt.cn)
-2. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
-3. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
-4. [ChatGPT-Bot](https://supergpt.shop)
-5. [ChatGPT-3.5-16k](https://6.ccf666.cn)
-6. [ChatGPT-3.5-1106](https://6.ccfgpt.cn)
-7. [ChatGPT-4.0-32k](https://6.chatpro.icu)
-8. [ChatGPT-DALLE](https://6.supergpt.shop)
-9. 可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
+2. [Gemini Plus](https://66.ccf666.cn)
+3. [ChatGPT-3.5-NextWeb](https://ccf666.cn)
+4. [ChatGPT-3.5](https://6.ccfgpt.cn)
+5. [ChatGPT-Bot](https://supergpt.shop)
+6. [ChatGPT-3.5-16k](https://6.ccf666.cn)
+7. [ChatGPT-4.0-32k](https://66.supergpt.shop)
+8. [ChatGPT-4.0-NextWeb](https://chatpro.icu)
+9. [ChatGPT-4.0-turbo](https://6.chatpro.icu)
+10. [ChatGPT-Plugins](https://6.supergpt.shop)
+11. [ChatGPT-Pro](https://66.chatpro.icu)
+12. 可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
 # 功能特点
 
 - 使用 Python 编写，运行环境为最新的 Python3版本
@@ -40,9 +47,9 @@
 - 只需要输入个人的 API Key 即可开始聊天，支持多个APIiKey
 - 支持设置参数，包括 `max-tokens`、`temperature`、`role` 等
 - 提供了全部官方模型可供选择
-- 主分支（main）包含源码文件，最新源码文件为 `gpt软件-stream最新版.py` 和 `gpt软件-stream最新版.py`
+- 主分支（main）包含源码文件，最新源码文件为 `gpts.py` 和 `gpt软件-stream最新版.py`
 - 在使用前，请仔细阅读各自的 README 文件，以了解使用指南和注意事项
-- 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-1106.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
+- 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-0125.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
 
 # 对话脚本使用设置
 
@@ -51,7 +58,7 @@
 3. 选择要使用的 GPT3.5 模型。
 4. 根据需要设置参数，如 `max-tokens`、`temperature`、`role` 等。
 5. 运行软件.py，与聊天机器人进行对话。
-6.在另一个软件分支：可执行文件中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-1106.exe（包含 GPT3.5 和 4.0 的所有模型，可直接使用），都可以通过调用个人的 API Key 进行使用，无需梯子。
+6.在另一个软件分支：可执行文件中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-0125.exe（包含 GPT3.5 和 4.0 的所有模型，可直接使用），都可以通过调用个人的 API Key 进行使用，无需梯子。
 
 # 注意事项
 
@@ -59,7 +66,7 @@
 - 请合理使用聊天机器人，遵守相关法律法规。
 - 如果你想深入了解项目的源码和使用方法，请仔细阅读相应的 README 文件。
 - 当前最新版本的源码文件为 `gpts.py+(g1.html)` 和 `gpt软件-stream最新版.py`。
-- 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-1106.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
+- 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-0125.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
 
 # 联系方式
 
