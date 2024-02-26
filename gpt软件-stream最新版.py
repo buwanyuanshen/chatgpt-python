@@ -138,6 +138,9 @@ def toggle_simplified():
 def get_response_thread():
     global selected_model, system_message, selected_api_key, temperature, max_tokens, continuous_chat, api_base
     user_input = user_input_text.get("1.0", "end-1c").rstrip("\n")
+    # 检查用户输入是否为空
+    if not user_input.strip():
+        return
     user_input_text.delete("1.0", tk.END)
     selected_model = model_select.get()
     system_message = system_message_text.get("1.0", "end-1c")
@@ -164,7 +167,7 @@ def get_response_thread():
     openai.api_key = selected_api_key
     openai.api_base = api_base  # 设置代理网址
 
-    if len(messages) > 3:
+    if len(messages) > 5:
         messages.pop(0)
 
     response = openai.ChatCompletion.create(
