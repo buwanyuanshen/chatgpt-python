@@ -1,5 +1,6 @@
+# Vercel部署
 2024.3.13新增vercel部署，请前往[chatgpt-python-vercel](https://github.com/buwanyuanshen/chatgpt-python-vercel)
-1.
+
 # GPT3.5/4.0聊天机器人
 
  项目很简单，需要安装flask,openai(0.28.0)等库，运行只需要两个文件，一个py文件和对应的html，目录结构为:
