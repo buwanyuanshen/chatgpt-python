@@ -12,7 +12,7 @@
  ––xx.html
 
 # 使用方法：
-将xx.py文件和文件夹放置同一目录下，html放入文件夹中，运行xx.py即可。
+将xx.py文件和templates文件夹放置同一目录下，g1.html放入templates文件夹中，运行xx.py即可。
 
 本项目是一个使用 Python 编写的聊天机器人，基于最新的 GPT3.5/4.0模型。它可以在无需梯子的情况下运行，并且只需要输入 API Key 即可进行聊天，实现了流式输出，但未实现代码块高亮显示。
 
@@ -68,8 +68,14 @@
 - 在使用本项目之前，请确保你拥有有效的 API Key。
 - 请合理使用聊天机器人，遵守相关法律法规。
 - 如果你想深入了解项目的源码和使用方法，请仔细阅读相应的 README 文件。
-- 当前最新版本的源码文件为 `gpts.py+(g1.html)` 和 `gpt软件-stream最新版.py`。
+- 当前最新版本的源码文件为 `gpts.py+(templates(g1.html))` 和 `gpt软件-stream最新版.py`。
 - 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-0125.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
+## 其余项目网址
+1.[chatgpt-website-forward-vercel(前端)](https://github.com/buwanyuanshen/chatgpt-website-forward-vercel),一键部署有流式。
+
+2.[ChatGPT-website-vercel(后端)](https://github.com/buwanyuanshen/ChatGPT-website-vercel),一键部署无流式。
+
+3.[ChatGPT-website-plus(后端)](https://github.com/buwanyuanshen/ChatGPT-website-plus)，本地部署有流式。
 
 # 联系方式
 
