@@ -1,0 +1,4 @@
+Flask
+requests
+openai==0.28.0
+gunicorn==21.2.0
