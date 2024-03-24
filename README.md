@@ -71,7 +71,7 @@
 - 当前最新版本的源码文件为 `gpts.py+(templates(g1.html))` 和 `gpt软件-stream最新版.py`。
 - 在另一个软件分支中，你可以找到初版的 GPT3.5 软件和最新软件：gpt-stream-0125.exe（包含 GPT3.5 和 4.0 的所有模型），都可以通过调用个人的 API Key 进行使用，无需梯子。
 ## 其余项目网址
-1.[chatgpt-website-forward-vercel(前端)](https://github.com/buwanyuanshen/chatgpt-website-forward-vercel),一键部署有流式。
+1.[chatgpt-website-forward-vercel(前端)](https://github.com/buwanyuanshen/ChatGPT-website-forward-vercel),一键部署有流式。
 
 2.[ChatGPT-website-vercel(后端)](https://github.com/buwanyuanshen/ChatGPT-website-vercel),一键部署无流式。
 
