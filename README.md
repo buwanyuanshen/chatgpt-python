@@ -30,19 +30,28 @@
 
 
 
-# 截止2024.10.08最新ChatGPT免费使用网址，还在更新中！：
-1. ChatGPT FREE:[ChatGPT FREE](https://gpt5.sbs) 
-2. Paint-Web:[Paint-Web](https://paint.gpt5.sbs) 
-3. ChatGPT-NextWeb:[ChatGPT-NextWeb](https://chatpro.icu)
-4. ChatGPT-Lobe:[ChatGPT-Lobe](https://lobe.chatpro.icu)
-5. Chat-MJ:[Chat-MJ](https://mj.chatpro.icu)
-6. Chat-OpenWebUI:[Chat-MJ](https://open.chatpro.icu) 
-7. Chat-Plus-Free:[Chat-Plus-Free](https://free.chatpro.icu)
-8. Chat-Plus-New-Charge:[Chat-Plus-New-Charge](https://gpt.chatpro.icu)
-9. Chat-Plus-Old-Charge:[Chat-Plus-Old-Charge](https://gpts.chatpro.icu)
-10. CF API:[CF API](https://api.gpt5.sbs)
-11. CF SHOP:[CF API](https://shop.chatpro.icu)
-12. 可以加入[q群226848325](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
+# 截止2025.09.19最新ChatGPT免费使用网址，还在更新中！：
+1.  CF网站导航:[CF网站导航](https://dh.gpt7.icu)
+2.  ChatGPT-NextWeb:[ChatGPT-NextWeb](https://next.gpt7.icu)
+3.  Free Chat(后端):[Free Chat(后端)](https://f2.gpt7.icu)
+4.  Free Chat(前端):[Free Chat(前端)](https://f1.gpt7.icu)
+5.  ChatGPT-Lobe:[ChatGPT-Lobe](https://lobe.gp7.icu)
+6.  ChatGPT-OpenWebUI:[ChatGPT-OpenWebUI](https://open.gpt7.icu)
+7.  ChatGPT-MJ:[ChatGPT-MJ](https://mj.gpt7.icu)
+8.  ChatGPT-Libre:[ChatGPT-Libre](https://libre.gpt7.icu)
+9.  Gemini Next Chat:[Gemini Next Chat](https://gemini.gpt7.icu)
+10. Paint-Web:[Paint-Web](https://paint.gpt7.icu)
+11. CF-API:[CF-API](https://api.gpt7.icu)
+12. 跑路机场:[跑路机场](https://v2.gpt7.icu), [跑路机场](https://跑路机场.site)
+    *   被墙则用: [https://cfjc.gpt7.icu](https://cfjc.gpt7.icu)
+    *   或者自行去反代(自己需要有域名)
+13. CF-图床:[CF-图床](https://img.gpt7.icu)
+14. CF-SHOP:[CF-SHOP](https://shop.gpt7.icu)
+15. CF–vps监控:[CF–vps监控](https://vps.gpt7.icu)
+16. CF–网站监控:[CF–网站监控](https://status.gpt7.icu)
+17. AI 小说助手v1.0:[AI 小说助手v1.0](https://novel.gpt7.icu)
+18. CF-TV（密码123456）:[CF-TV（密码123456）](https://tv.gpt7.icu)
+19. CF-MUSIC:[CF-MUSIC](https://music.gpt7.icu)
 
 # 功能特点
 
@@ -81,3 +90,4 @@
 # 联系方式
 
 如果你在使用过程中遇到任何问题或有任何建议，欢迎联系我们(唯一联系方式qq：1901304265，q群:226848325)。祝您使用愉快！
+
